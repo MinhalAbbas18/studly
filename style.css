@@ -284,6 +284,9 @@ font-family: 'Roboto', sans-serif;
    box-shadow: 4px 0px 16px 4px rgba(224,217,224,1);
    border-radius: 15px;
 }
+.demo{
+   color: red;
+}
 .images-box img{
    height: 245px;
    border-radius: 15px;
