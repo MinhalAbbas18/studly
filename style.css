@@ -1,0 +1,440 @@
+.main-container{
+   background: white;
+   width: 100%;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+}
+.left-nav{
+   font-family: 'Cookie', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Oswald', sans-serif;
+font-size: 25px;
+cursor: pointer;
+}
+.left-nav li{
+   list-style: none;
+}
+.middle-nav{
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+}
+.middle-nav ul{
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+}
+.middle-nav ul li{
+   margin: 29px;
+   color: gray;
+   font-size: 17px;
+}
+.middle-nav li:hover{
+   color: black;
+}
+.right-nav{
+   text-align: center;
+   border-radius: 30px;
+   padding: 14px ;
+   background: rgb(29, 175,130);
+   height: 20px;
+   margin: 15px;
+   cursor: pointer;
+}
+.col-1{
+   margin-top: 80px;
+}
+.right-nav li{
+   list-style-type: none;
+   color: white;
+}
+.col-1 h1{
+   text-align: center;
+   font-size: 40px;
+   letter-spacing: 4px;
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Oswald', sans-serif;
+}
+.col-1 p{
+   margin-top: 40px;
+   text-align: center;
+   color: gray;
+}
+.input-items{
+   display: flex;
+   justify-content: center;
+}
+.input-items input{
+   width: 350px;
+   border-radius: 30px;
+   padding-left: 40px;
+   border: none;
+}
+.main-input {
+   box-shadow: 4px 0px 16px 4px rgba(224,217,224,1);
+   border-radius: 30px;
+   height: 65px;
+   display: flex;
+   align-items: center;
+}
+.main-input input{
+   height: 40px;
+   font-size: 15px;
+
+}
+.main-input img{
+   width: 35px;
+   height: 40px;
+}
+button{
+   height: 68px;
+   width: 110px;
+   color: white;
+   background: rgb(241, 198,147);
+   border-radius: 30px;
+   border: none;
+   font-size: 17px;
+}
+.box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 250px;
+   background: #dfe6e9;
+   height: 150px;
+   width: 100%;
+}
+.box .main-box{
+   font-size: 17px;
+   font-weight: bold;
+   padding: 15px;
+}
+.main-box h1{
+   color: #27ae60;
+   font-size: 40px;
+   font-family: sans-serif;
+   text-align: center;
+}
+.main-box p{
+   color: black;
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+.heading{
+   text-align: center;
+   font-size: 25px;
+   font-weight: bold;
+}
+.heading p{
+   color: #27ae60;
+}
+.heading h1{
+   font-family: 'Cookie', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+.three-box{
+   
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 100px;
+}
+
+.paragaragh{
+   text-align: right;
+   padding-right: 60px;
+   margin-top: 250px;
+}
+.paragaragh h1{
+   font-size: 45px;
+   letter-spacing: 2px;
+   font-family: 'Cookie', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.paragaragh p{
+   letter-spacing: 1px;
+   font-family: 'Cookie', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.paragaragh button{
+   background: rgb(33, 180,135);
+   color: rgb(223, 255, 245);
+   width: 140px;
+   cursor: pointer;
+}
+.heading2{
+   margin-top: 180px;
+   text-align: center;
+   font-size: 30px;
+   letter-spacing: 1px;
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Oswald', sans-serif;
+}
+.heading2 button{
+   background: white;
+   color:rgb(33, 180,135);
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+   margin-bottom: 50px;
+   
+}
+.images-box{
+   display: flex;
+   justify-content: space-evenly;
+   background: rgb(255, 255, 255);
+   cursor: pointer;
+}
+.img1{
+   width: 300px;
+   height: 220px;
+   border: 2px solid gray;
+   border-radius: 15px;
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   padding: 20px;
+}
+.head{
+   display: flex;
+   justify-content: space-evenly;
+}
+.img1 .text2{
+   font-size: 17px;
+   margin-top: 47px;
+   font-weight: bold;
+   color:rgb(33, 180,135);
+}
+.text{
+   font-size: 17px;
+   display: flex;
+   justify-content: space-between;
+   font-weight: bold;
+   margin-top: 15px;
+}
+.img2 .text2{
+   font-size: 17px;
+   margin-top: 47px;
+   font-weight: bold;
+   color: white;
+}
+.img1 img{
+   width: 30px;
+   height: 30px;
+   margin-top: 30px;
+}
+.img2{
+   width: 300px;
+   height: 220px;
+   background: rgb(33, 180,135);
+   border-radius: 15px;
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   padding: 20px;
+}
+.img2 img{
+   width: 30px;
+   height: 30px;
+   margin-top: 30px;
+}
+.img3{
+   width: 300px;
+   height: 220px;
+   border: 2px solid gray;
+   border-radius: 15px;
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   padding: 20px;
+}
+.img3 img{
+   width: 30px;
+   height: 30px;
+   margin-top: 30px;
+}
+.image1{
+   box-shadow: 4px 0px 16px 4px rgba(224,217,224,1);
+   border-radius: 15px;
+}
+.images-box img{
+   height: 245px;
+   border-radius: 15px;
+   width: 384px;
+}
+.images-box h1{
+   font-size: 30px;
+   letter-spacing: 1px;
+   padding-left: 30px;
+   font-family: 'Cookie', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+.images-box p{
+   font-size: 22px;
+   padding-left: 45px;
+   color: rgb(134, 123, 137);
+}
+.icon-item img{
+   height: 32px;
+}
+.image1 h3{
+   background: white;
+   color:rgb(33, 180,135);
+   font-weight: bold;
+   font-size: 20px;
+   padding-left: 30px;
+}
+.img-box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.img-box p{
+   margin: 0;
+}
+.img-box img{
+   height: 20px;
+   width: 20px;
+   padding-left: 30px;
+}
+.img-box h4{
+   color: grey;
+   margin-right: 25px;
+}
+.img-box span{
+   height: 5px;
+   background-color: rgb(21, 19, 19);
+   width: 5px;
+   border-radius: 10px;
+   display: inline-block;
+   margin-left: 40px;
+}
+.detail{
+   margin-bottom: 10px;
+   display: flex;
+   
+}
+.detail h3{
+   cursor: pointer;
+}
+.detail img{
+   width: 30px;
+   height: 30px;
+   margin-top: 15px;
+   margin-left: 40px;
+   cursor: pointer;
+}
+.heading3{
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   padding-left: 110px;
+   margin-top: 300px;
+}
+.heading3 h1{
+   font-size: 55px;
+   letter-spacing: 2px;
+}
+.heading3 p{
+   color: rgb(134, 123, 137);
+   font-size: 25px;
+   letter-spacing: 1px;
+}
+.heading3 h4{
+   margin-top: 60px;
+   font-size: 25px;
+}
+.footer{
+   background: rgb(134, 172, 168);
+   display: flex;
+   justify-content: space-between;
+   margin-top: 220px;
+   width: 100%;
+   height: 440px;
+}
+.main-footer ul{
+   list-style-type: none;
+}
+.main-footer ul li{
+   margin-top: 25px;
+   text-align: center;
+   color: white;
+   font-size: 20px;
+}
+.main-footer h1{
+   font-size: 45px;
+   letter-spacing: 1px;
+   margin-bottom: 70px;
+   text-align: center;
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Oswald', sans-serif;
+}
+.imgboxes{
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+   width: 40px;
+   height: 40px;
+   margin-left: 60px;
+   gap: 20px;
+}
+.main-footer p{
+   font-size: 25px;
+   font-weight: bold;
+   font-family: 'Cookie', cursive;
+   font-family: 'Italianno', cursive;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 1px;
+   text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+   .middle-nav ul{
+      flex-wrap: wrap;
+   }
+   .three-box{
+      flex-wrap: wrap;
+      gap: 40px;
+   }
+   .images-box{
+      flex-wrap: wrap;
+      gap: 28px;
+  
+   }
+}
+
+
+
+
